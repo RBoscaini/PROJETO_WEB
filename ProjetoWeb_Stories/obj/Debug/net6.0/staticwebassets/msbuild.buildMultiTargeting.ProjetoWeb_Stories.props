@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProjetoWeb_Stories.props" />
+</Project>

@@ -9,7 +9,15 @@ namespace ProjetoWeb_Stories
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            var app = builder.Build();
+			builder.Services.AddSession(options =>
+			{
+				options.Cookie.Name = "ProjetoWeb_Stories.RedeSocial.Session";
+				options.IdleTimeout = TimeSpan.FromMinutes(15);
+				options.Cookie.HttpOnly = true;
+				options.Cookie.IsEssential = true;
+			});
+
+			var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -28,7 +36,7 @@ namespace ProjetoWeb_Stories
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Usuario}/{action=Login}/{id?}");
 
             app.Run();
         }
