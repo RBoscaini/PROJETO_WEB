@@ -10,6 +10,13 @@ namespace ProjetoWeb_Stories.Controllers
             return View();
         }
 
+       
+        public IActionResult Storie()
+        {
+            return View("Storie");
+        }
+
+
         public IActionResult Feed()
         {
 
@@ -120,6 +127,7 @@ namespace ProjetoWeb_Stories.Controllers
             return View();  
         }
 
+    
         public class Comentario
         {
             public int Id { get; set; }
