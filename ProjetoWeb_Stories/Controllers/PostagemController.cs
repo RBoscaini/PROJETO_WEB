@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjetoWeb_Stories.Models;
 
 namespace ProjetoWeb_Stories.Controllers
 {
@@ -13,34 +14,34 @@ namespace ProjetoWeb_Stories.Controllers
         {
 
 
-            List<Story> stories = new List<Story>()
+            List<StoryModel> stories = new List<StoryModel>()
             {
-                new Story(1, 1, "", DateTime.Now.AddHours(-1), "Paulo Bodaneze Reva"),
-                new Story(2, 1, "", DateTime.Now.AddHours(-1), "Paulo Bodaneze Reva"),
-                new Story(3, 2, "", DateTime.Now.AddHours(-2), "João das Neves"),
-                new Story(4, 3, "", DateTime.Now.AddHours(-3), "Ayrton Sena"),
-                new Story(5, 3, "", DateTime.Now.AddHours(-4), "Ayrton Sena"),
-                new Story(6, 4, "", DateTime.Now.AddHours(-3), "Roberto da Silva"),
-                new Story(7, 5, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(8, 6, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(9, 7, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(11, 9, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(10, 8, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(12, 10, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
-                new Story(13, 11, "", DateTime.Now.AddHours(-2), "Robson da ZS"),
+                new StoryModel(1, 1, "", DateTime.Now.AddHours(-1), "João Silva"),
+                new StoryModel(2, 1, "", DateTime.Now.AddHours(-3), "Rodrigues Antunes"),
+                new StoryModel(3, 2, "", DateTime.Now.AddHours(-2), "Marcio Mario"),
+                new StoryModel(4, 3, "", DateTime.Now.AddHours(-3), "Rodrigo Moraes"),
+                new StoryModel(5, 3, "", DateTime.Now.AddHours(-4), "Rodrigo Moraes"),
+                new StoryModel(6, 4, "", DateTime.Now.AddHours(-3), "José Silva"),
+                new StoryModel(7, 5, "", DateTime.Now.AddHours(-2), "Lara Silva"),
+                new StoryModel(8, 6, "", DateTime.Now.AddHours(-5), "Jorge Pires"),
+                new StoryModel(9, 7, "", DateTime.Now.AddHours(-2), "Silvano Moreira"),
+                new StoryModel(11, 9, "", DateTime.Now.AddHours(-8), "Robson Dutra"),
+                new StoryModel(10, 8, "", DateTime.Now.AddHours(-2), "Pietro Marcos"),
+                new StoryModel(12, 10, "", DateTime.Now.AddHours(-3), "Mariana Silva"),
+                new StoryModel(13, 11, "", DateTime.Now.AddHours(-2), "Rafael Lima"),
 
             };
 
-            List<FeedPost> feedPosts = new List<FeedPost>()
+            List<PublicacaoModel> feedPosts = new List<PublicacaoModel>()
             {
-                new FeedPost()
+                new PublicacaoModel()
                 {
                     Id = 1,
                     UserId = 1,
                     Date =  DateTime.Now.AddHours(-1),
                     Likes = 2,
                     PostText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed hendrerit lacus, sit amet tempor velit. Nulla nec urna semper, tempus velit id, scelerisque tellus. Vestibulum interdum, erat vitae mollis semper, elit metus elementum sapien, at convallis nisl lorem vel lorem. Vestibulum malesuada nibh at ligula mattis, consequat iaculis diam elementum. Nunc euismod turpis eu accumsan scelerisque. Pellentesque eu pretium arcu. Donec maximus ligula eu felis pharetra, vel eleifend orci laoreet. Nulla non justo est. Nullam venenatis, est ac lacinia feugiat, augue tortor bibendum eros, et commodo ligula urna ac lorem. Mauris porttitor pharetra vehicula. Pellentesque ante nisi, gravida sed justo eu, sagittis volutpat ex. Nunc id felis mattis, congue sem quis, luctus lacus. Etiam id risus ut orci dignissim convallis pulvinar non urna. Duis vel nulla velit.",
-                    UserName = "Paulo Bodaneze Reva",
+                    UserName = "João Silva",
                     UserProfilePicture = "",
                     Comentarios = new List<Comentario>()
                     {
@@ -48,7 +49,7 @@ namespace ProjetoWeb_Stories.Controllers
                         {
                             Id = 1,
                             UserId = 2,
-                            UserName = "João das Neves",
+                            UserName = "Marcio Mario",
                             UserProfilePicture = "",
                             Date= DateTime.Now.AddHours(-1),
                             Likes= 3,
@@ -56,14 +57,14 @@ namespace ProjetoWeb_Stories.Controllers
                         }
                     }
                 },
-                new FeedPost()
+                new PublicacaoModel()
                 {
                     Id = 1,
                     UserId = 1,
                     Date =  DateTime.Now.AddHours(-1),
                     Likes = 2,
                     PostText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed hendrerit lacus, sit amet tempor velit. Nulla nec urna semper, tempus velit id, scelerisque tellus. Vestibulum interdum, erat vitae mollis semper, elit metus elementum sapien, at convallis nisl lorem vel lorem. Vestibulum malesuada nibh at ligula mattis, consequat iaculis diam elementum. Nunc euismod turpis eu accumsan scelerisque. Pellentesque eu pretium arcu. Donec maximus ligula eu felis pharetra, vel eleifend orci laoreet. Nulla non justo est. Nullam venenatis, est ac lacinia feugiat, augue tortor bibendum eros, et commodo ligula urna ac lorem. Mauris porttitor pharetra vehicula. Pellentesque ante nisi, gravida sed justo eu, sagittis volutpat ex. Nunc id felis mattis, congue sem quis, luctus lacus. Etiam id risus ut orci dignissim convallis pulvinar non urna. Duis vel nulla velit.",
-                    UserName = "Paulo Bodaneze Reva",
+                    UserName = "João Silva",
                     UserProfilePicture = "",
                     Comentarios = new List<Comentario>()
                     {
@@ -71,7 +72,7 @@ namespace ProjetoWeb_Stories.Controllers
                         {
                             Id = 1,
                             UserId = 2,
-                            UserName = "João das Neves",
+                            UserName = "Marcio Mario",
                             UserProfilePicture = "",
                             Date= DateTime.Now.AddHours(-1),
                             Likes= 3,
@@ -79,14 +80,14 @@ namespace ProjetoWeb_Stories.Controllers
                         }
                     }
                 },
-                new FeedPost()
+                new PublicacaoModel()
                 {
                     Id = 1,
                     UserId = 1,
                     Date =  DateTime.Now.AddHours(-1),
                     Likes = 2,
                     PostText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed hendrerit lacus, sit amet tempor velit. Nulla nec urna semper, tempus velit id, scelerisque tellus. Vestibulum interdum, erat vitae mollis semper, elit metus elementum sapien, at convallis nisl lorem vel lorem. Vestibulum malesuada nibh at ligula mattis, consequat iaculis diam elementum. Nunc euismod turpis eu accumsan scelerisque. Pellentesque eu pretium arcu. Donec maximus ligula eu felis pharetra, vel eleifend orci laoreet. Nulla non justo est. Nullam venenatis, est ac lacinia feugiat, augue tortor bibendum eros, et commodo ligula urna ac lorem. Mauris porttitor pharetra vehicula. Pellentesque ante nisi, gravida sed justo eu, sagittis volutpat ex. Nunc id felis mattis, congue sem quis, luctus lacus. Etiam id risus ut orci dignissim convallis pulvinar non urna. Duis vel nulla velit.",
-                    UserName = "Paulo Bodaneze Reva",
+                    UserName = "João Silva",
                     UserProfilePicture = "",
                     Comentarios = new List<Comentario>()
                     {
@@ -94,7 +95,7 @@ namespace ProjetoWeb_Stories.Controllers
                         {
                             Id = 1,
                             UserId = 2,
-                            UserName = "João das Neves",
+                            UserName = "Marcio Mario",
                             UserProfilePicture = "",
                             Date= DateTime.Now.AddHours(-1),
                             Likes= 3,
@@ -117,38 +118,6 @@ namespace ProjetoWeb_Stories.Controllers
             ViewBag.Posts = feedPosts;
 
             return View();  
-        }
-
-        public class Story
-        {
-            public Story(int id, int userId, string image, DateTime date, string userName)
-            {
-                Id = id;
-                UserId = userId;
-                Image = image;
-                Date = date;
-                UserName = userName;
-            }
-
-            public int Id { get; set; }
-            public int UserId { get; set; }
-            public string UserName { get; set; }
-            public string Image { get; set; }
-
-            public DateTime Date { get; set; }
-        }
-
-        public class FeedPost
-        {
-            public int Id { get; set; }
-            public int UserId { get; set; }
-            public string UserName { get; set; }
-            public string UserProfilePicture { get; set; }
-            public string PostText { get; set; }
-            public int Likes { get; set; }
-            public DateTime Date { get; set; }
-            public List<Comentario> Comentarios { get; set; }
-
         }
 
         public class Comentario

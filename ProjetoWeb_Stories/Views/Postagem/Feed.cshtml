@@ -9,7 +9,7 @@
     <style type="text/css">
 
         body {
-            background: #f7f7ff;
+            background: #FFE7D3;
             margin-top: 20px;
         }
 
@@ -20,6 +20,7 @@
             min-width: 0;
             word-wrap: break-word;
             background-color: #fff;
+
             background-clip: border-box;
             border: 0 solid transparent;
             border-radius: .25rem;
@@ -34,7 +35,7 @@
     </style>
 </head>
 <body>  
-    <div class="container">
+    <div class="container red">
         <div class="main-body">
             <div class="row">
                 <div class="col-lg-4">
@@ -92,10 +93,10 @@
 
                                     @foreach (var storyGroup in ViewBag.StoriesAgrupados)
                                     {
-                                        <div class="story " data-id="user-1" data-photo="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/cavalo.jpg" data-last-updated="1712421528.864">
+                                        <div class="story " data-id="user-1" data-photo="https://social.webestica.com/assets/images/post/1by1/02.jpg" data-last-updated="1712421528.864">
                                             <a class="item-link" asp-controller="Postagem" asp-action="Story">
                                                 <span class="item-preview">
-                                                    <img lazy="eager" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/cavalo.jpg">
+                                                    <img lazy="eager" src="https://social.webestica.com/assets/images/post/1by1/02.jpg">
                                                 </span>
                                                 <span class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                                                     <strong class="name" itemprop="name">@storyGroup.UserName</strong>

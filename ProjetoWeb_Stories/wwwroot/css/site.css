@@ -768,6 +768,7 @@ progress {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-right: auto;
+    background: #FFE7D3;
     margin-left: auto;
 }
 
@@ -4813,6 +4814,7 @@ textarea.form-control-lg {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    
 }
 
     .navbar > .container,
@@ -4833,6 +4835,7 @@ textarea.form-control-lg {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+        background-color: #FFF !important;
     }
 
 .navbar-brand {
