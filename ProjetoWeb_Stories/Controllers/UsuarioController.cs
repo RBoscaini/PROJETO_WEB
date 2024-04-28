@@ -35,7 +35,7 @@ namespace ProjetoWeb_Stories.Controllers
 		[ServiceFilter(typeof(ExceptionFilter))]
 		public IActionResult Erro()
 		{
-			throw new Exception("Batata testessssssssssss");
+			throw new Exception("Teste teste");
 		}
 	}
 }
