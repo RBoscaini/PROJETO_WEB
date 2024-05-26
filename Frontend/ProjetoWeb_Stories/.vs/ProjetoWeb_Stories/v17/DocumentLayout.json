@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\views\\postagem\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\publicacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\publicacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\comentariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\comentariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\feedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\feedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\storymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\storymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\autenticacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\autenticacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\projetoweb_stories\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Storie.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Postagem\\Storie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Postagem\\Storie.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Postagem\\Storie.cshtml",
+              "RelativeToolTip": "Views\\Postagem\\Storie.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:26:58.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Feed.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Postagem\\Feed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Postagem\\Feed.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Postagem\\Feed.cshtml",
+              "RelativeToolTip": "Views\\Postagem\\Feed.cshtml",
+              "ViewState": "AQIAADoBAAAAAAAAAAAAADUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:26:58.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:26:58.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostagemController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostagemController.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs",
+              "RelativeToolTip": "Controllers\\PostagemController.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAwwAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEUVAAAAAAAAAAAawGAVAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-21T22:26:58.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "Models\\UsuarioModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComentarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\ComentarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\ComentarioModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\ComentarioModel.cs",
+              "RelativeToolTip": "Models\\ComentarioModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:26:58.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PublicacaoModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\PublicacaoModel.cs",
+              "RelativeDocumentMoniker": "Models\\PublicacaoModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\PublicacaoModel.cs",
+              "RelativeToolTip": "Models\\PublicacaoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutenticacaoModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\AutenticacaoModel.cs",
+              "RelativeDocumentMoniker": "Models\\AutenticacaoModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\AutenticacaoModel.cs",
+              "RelativeToolTip": "Models\\AutenticacaoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "Models\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Filters\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "Filters\\ExceptionFilter.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\StoryModel.cs",
+              "RelativeDocumentMoniker": "Models\\StoryModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\StoryModel.cs",
+              "RelativeToolTip": "Models\\StoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FeedModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\FeedModel.cs",
+              "RelativeDocumentMoniker": "Models\\FeedModel.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\ProjetoWeb_Stories\\Models\\FeedModel.cs",
+              "RelativeToolTip": "Models\\FeedModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:26:58.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
