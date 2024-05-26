@@ -1,0 +1,6 @@
+@Ftec.RedeSocialUniftec.Stories.API_HostAddress = http://localhost:5110
+
+GET {{Ftec.RedeSocialUniftec.Stories.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
