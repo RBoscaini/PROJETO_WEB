@@ -1,0 +1,12 @@
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.deps.json
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.pdb
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.AssemblyInfoInputs.cache
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.AssemblyInfo.cs
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.sourcelink.json
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\refint\Ftec.RedeSocialUniftec.Stories.Domain.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.pdb
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Domain\obj\Debug\net8.0\ref\Ftec.RedeSocialUniftec.Stories.Domain.dll

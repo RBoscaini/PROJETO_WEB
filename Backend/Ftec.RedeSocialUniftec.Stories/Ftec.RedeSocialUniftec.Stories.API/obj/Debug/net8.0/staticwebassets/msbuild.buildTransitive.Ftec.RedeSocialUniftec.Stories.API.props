@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ftec.RedeSocialUniftec.Stories.API.props" />
+</Project>

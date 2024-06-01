@@ -9,7 +9,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Domain.Entities
     public class Storie
     {
         public Guid Id { get; set; }
-        public Usuario IdUsuario { get; set; }
+        public Guid IdUsuario { get; set; }
         public byte[] Conteudo {  get; set; }
         public DateTime DataEnvio { get; set; }
         public int NumVisualização { get; set; }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ja324N4z8FFrXkl7Y+d1uKWDQKziUnFJhCfvHhxEQRwP04Mu4IA0OfS3mIK6Z5ThPCj+d73i2aHU5I2+u1rpiQ==",
+  "dgSpecHash": "02oDS6+DVII4DeamLmeVLVCI7q1wZ+fPrq3PU2yFtWU/3b9IJ2VTl7Ux6S02At/n0pbgr28/nFtOOGdPAY9mlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,6 +13,6 @@ namespace Ftec.RedeSocialUniftec.Stories.Domain.Repository
         Storie Visualizar(Guid id);
         void Excluir(Guid id);
         void Arquivar(Guid id);
-        void Temporizador(Guid id);
+        void Temporizador();
     }
 }
