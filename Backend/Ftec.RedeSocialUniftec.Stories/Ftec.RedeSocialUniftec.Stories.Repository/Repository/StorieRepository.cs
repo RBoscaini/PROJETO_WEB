@@ -101,6 +101,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
         {
 
               Storie storie = null;
+       //     Usuario usuario = null;
 
             using (NpgsqlConnection con = new NpgsqlConnection(strConexao))
             {
@@ -109,19 +110,24 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                 using (NpgsqlCommand cmd = new NpgsqlCommand())
                 {
                     cmd.Connection = con;
-                    cmd.CommandText = "SELECT id, conteudo, dataenvio, numvisualizacao, situacao, idusuario FROM public.storie WHERE id=@id;";
+                    cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
+                        " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
+                        " WHERE public.storie.id=@id;";
                     cmd.Parameters.AddWithValue("id", id);
                     var leitor = cmd.ExecuteReader();
                     while (leitor.Read())
                     {
                         storie = new Storie();
+                        storie.Usuario = new Usuario();
                         storie.Id = Guid.Parse(leitor["id"].ToString());
                         storie.Conteudo = (byte[])leitor["conteudo"];
                         storie.DataEnvio = (DateTime)leitor["dataenvio"];
                         storie.NumVisualização = Convert.ToInt16(leitor["numvisualizacao"]);
                         storie.Situacao = (SituacaoStorie)leitor["situacao"];
                         storie.IdUsuario = Guid.Parse(leitor["idusuario"].ToString());
+                        storie.Usuario.Id = storie.IdUsuario;
 
+                        storie.Usuario.Nome = leitor["nomeUsuario"].ToString();
                     }
 
                     leitor.Close();

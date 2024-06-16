@@ -22,6 +22,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Adapter
                 storieDomain.Situacao = (SituacaoStorie)storie.Situacao;
                 storieDomain.Id = storie.Id;
                 storieDomain.IdUsuario = storie.IdUsuario;
+                storieDomain.Usuario = storie.Usuario;
 
                 return storieDomain;
             }
@@ -39,6 +40,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Adapter
                 storieDto.Situacao = (SituacaoStorieDto)storie.Situacao;
                 storieDto.Id = storie.Id;
                 storieDto.IdUsuario = storie.IdUsuario;
+                storieDto.Usuario = storie.Usuario;
 
                 return storieDto;
             }

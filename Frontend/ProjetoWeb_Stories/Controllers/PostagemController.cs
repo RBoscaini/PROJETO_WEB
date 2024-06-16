@@ -1,19 +1,42 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjetoWeb_Stories.Backend.Models;
 using ProjetoWeb_Stories.Models;
+using sistemasWebAula.Backend.HTTPClient;
 
 namespace ProjetoWeb_Stories.Controllers
 {
 	public class PostagemController : Controller
 	{
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
+
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            Storie storie;
+
+            APIHttpClient client;
+            client = new APIHttpClient("http://localhost:5107/api/");
+
+            storie = client.Get<Storie>("storie");
+
+            return View(Mapping.StorieMapping.ToStorieConsulta(storie));
         }
 
-       
         public IActionResult Storie()
         {
-            return View("Storie");
+
+            Storie storie;
+
+            APIHttpClient client;
+            client = new APIHttpClient("https://localhost:7061/api/");
+
+            storie = client.Get<Storie>("Storie/62728556-d467-4724-8f11-7fed1490a20a");
+
+            return View(Mapping.StorieMapping.ToStorieConsulta(storie));
+            //return View("Storie");
         }
 
 

@@ -10,5 +10,6 @@ namespace Ftec.RedeSocialUniftec.Stories.Domain.Entities
     {
         public Guid Id { get; set; }
         public string Nome { get; set; }
+
     }
 }
