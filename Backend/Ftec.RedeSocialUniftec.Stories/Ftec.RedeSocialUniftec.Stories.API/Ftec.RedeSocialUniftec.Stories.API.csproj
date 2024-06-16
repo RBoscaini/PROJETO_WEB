@@ -10,4 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ftec.RedeSocialUniftec.Stories.Application\Ftec.RedeSocialUniftec.Stories.Application.csproj" />
+  </ItemGroup>
+
 </Project>

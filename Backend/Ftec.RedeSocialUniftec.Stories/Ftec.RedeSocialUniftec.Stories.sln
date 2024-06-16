@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{00F942D8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8C9CA81B-BEF1-49A9-BE6D-A7A63C4D3C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.RedeSocialUniftec.Stories.Domain", "Ftec.RedeSocialUniftec.Domain\Ftec.RedeSocialUniftec.Stories.Domain.csproj", "{DE5BBE9B-C310-4919-90C0-65B94AC75B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.RedeSocialUniftec.Stories.Domain", "Ftec.RedeSocialUniftec.Domain\Ftec.RedeSocialUniftec.Stories.Domain.csproj", "{DE5BBE9B-C310-4919-90C0-65B94AC75B35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.RedeSocialUniftec.Stories.Repository", "Ftec.RedeSocialUniftec.Stories.Repository\Ftec.RedeSocialUniftec.Stories.Repository.csproj", "{74FCF18C-75AE-43AC-BB05-F0244D057241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.RedeSocialUniftec.Stories.Repository", "Ftec.RedeSocialUniftec.Stories.Repository\Ftec.RedeSocialUniftec.Stories.Repository.csproj", "{74FCF18C-75AE-43AC-BB05-F0244D057241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.RedeSocialUniftec.Stories.Repository.T", "Ftec.RedeSocialUniftec.Stories.Repository.T\Ftec.RedeSocialUniftec.Stories.Repository.T.csproj", "{8C4921F9-6A76-43B4-BFE0-EB697479A158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.RedeSocialUniftec.Stories.Repository.T", "Ftec.RedeSocialUniftec.Stories.Repository.T\Ftec.RedeSocialUniftec.Stories.Repository.T.csproj", "{8C4921F9-6A76-43B4-BFE0-EB697479A158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.RedeSocialUniftec.Stories.Application", "Ftec.RedeSocialUniftec.Stories.Application\Ftec.RedeSocialUniftec.Stories.Application.csproj", "{CCEA2BCF-486A-4F84-B18D-873018B8EE5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{8C4921F9-6A76-43B4-BFE0-EB697479A158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4921F9-6A76-43B4-BFE0-EB697479A158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4921F9-6A76-43B4-BFE0-EB697479A158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEA2BCF-486A-4F84-B18D-873018B8EE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEA2BCF-486A-4F84-B18D-873018B8EE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEA2BCF-486A-4F84-B18D-873018B8EE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEA2BCF-486A-4F84-B18D-873018B8EE5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{DE5BBE9B-C310-4919-90C0-65B94AC75B35} = {0B52A0AB-2FC9-4D58-BAED-B6640717BD81}
 		{74FCF18C-75AE-43AC-BB05-F0244D057241} = {00F942D8-5EDD-49A3-8103-F05B3FA4F3F2}
 		{8C4921F9-6A76-43B4-BFE0-EB697479A158} = {00F942D8-5EDD-49A3-8103-F05B3FA4F3F2}
+		{CCEA2BCF-486A-4F84-B18D-873018B8EE5B} = {D17973B4-01B9-4E9B-BA7A-18C606C26BE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {259EC3C4-2EDC-49AA-88E5-FE9414FA142A}

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fmhAgiJrOBVMNTp4orZvKCw7fnUvqZ9qhJRZBt3v7/IgLVm3oE4vNBtJSAD9UCL5NHS2wgKlofghGkGqzs3Bpw==",
+  "dgSpecHash": "tglaYjNJXxHszB51uJwwaymjA87e1f5QpwubHwNcpq4Y4NPMZH+/oVKGwA0Nv9zkZ6fF9YBwrFOs/ZLRIlAZSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Ftec.RedeSocialUniftec.Stories.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\fabio\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\fabio\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\fabio\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\fabio\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\fabio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

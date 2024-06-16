@@ -4,6 +4,66 @@
     "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Ftec.RedeSocialUniftec.Stories.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj",
+        "projectName": "Ftec.RedeSocialUniftec.Stories.Domain",
+        "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Ftec.RedeSocialUniftec.Stories.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +87,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Ftec.RedeSocialUniftec.Stories.Application.csproj": {
+                "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Ftec.RedeSocialUniftec.Stories.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,6 +129,143 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Ftec.RedeSocialUniftec.Stories.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Ftec.RedeSocialUniftec.Stories.Application.csproj",
+        "projectName": "Ftec.RedeSocialUniftec.Stories.Application",
+        "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Ftec.RedeSocialUniftec.Stories.Application.csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj": {
+                "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj"
+              },
+              "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj": {
+                "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj",
+        "projectName": "Ftec.RedeSocialUniftec.Stories.Repository",
+        "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Ftec.RedeSocialUniftec.Stories.Repository.csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj": {
+                "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Ftec.RedeSocialUniftec.Stories.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

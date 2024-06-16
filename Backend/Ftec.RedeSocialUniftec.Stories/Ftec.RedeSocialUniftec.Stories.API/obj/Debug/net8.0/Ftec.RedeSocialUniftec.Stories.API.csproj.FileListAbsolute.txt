@@ -31,3 +31,10 @@ C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.
 C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.API.pdb
 C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\obj\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.API.genruntimeconfig.cache
 C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\obj\Debug\net8.0\ref\Ftec.RedeSocialUniftec.Stories.API.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Npgsql.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Application.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Repository.dll
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Application.pdb
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Domain.pdb
+C:\Users\fabio\OneDrive\Documentos\GitHub\Projetos Web\PROJETO_WEB\Backend\Ftec.RedeSocialUniftec.Stories\Ftec.RedeSocialUniftec.Stories.API\bin\Debug\net8.0\Ftec.RedeSocialUniftec.Stories.Repository.pdb
