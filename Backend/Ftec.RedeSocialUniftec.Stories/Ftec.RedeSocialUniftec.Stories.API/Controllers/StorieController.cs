@@ -43,12 +43,12 @@ namespace Ftec.RedeSocialUniftec.Stories.API.Controllers
             app.Excluir(id);
         }
 
-        //[Description("Temporizador")]
-        //[HttpPost]
-        //public void Temporizador()
-        //{
-        //    StorieApplication app = new StorieApplication();
-        //    app.Temporizador();
-        //}
+        [Description("Temporizador")]
+        [HttpPut]
+        public void Put()
+        {
+            StorieApplication app = new StorieApplication();
+            app.Temporizador();
+        }
     }
 }
