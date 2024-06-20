@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\mapping\\storiemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:mapping\\storiemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\models\\storymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\storymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\backend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:backend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\models\\publicacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\models\\feedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:models\\feedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\mapping\\storiemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:mapping\\storiemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\AppData\\Local\\SourceServer\\a3a72163604fc3f69f8df3789b4543889a8612514f1e7e3d19321c4472988429\\Frontend\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -113,7 +113,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -169,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Backend\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Usuario.cs",
@@ -182,13 +182,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "StorieMapping.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Mapping\\StorieMapping.cs",
               "RelativeDocumentMoniker": "Mapping\\StorieMapping.cs",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Mapping\\StorieMapping.cs",
               "RelativeToolTip": "Mapping\\StorieMapping.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBUAAAAiAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T17:06:51.051Z",
               "EditorCaption": ""
@@ -208,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "StorieConsultaModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\StorieConsultaModel.cs",
               "RelativeDocumentMoniker": "Models\\StorieConsultaModel.cs",
@@ -221,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Storie.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Backend\\Models\\Storie.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Storie.cs",
@@ -234,13 +234,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Storie.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Views\\Postagem\\Storie.cshtml",
               "RelativeDocumentMoniker": "Views\\Postagem\\Storie.cshtml",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Views\\Postagem\\Storie.cshtml",
               "RelativeToolTip": "Views\\Postagem\\Storie.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFwAAAAQAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFYAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-21T22:26:58.837Z",
               "EditorCaption": ""
@@ -273,13 +273,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "PostagemController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostagemController.cs",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs",
               "RelativeToolTip": "Controllers\\PostagemController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAMAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T22:26:58.878Z",
               "EditorCaption": ""
@@ -312,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
@@ -325,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ComentarioModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\ComentarioModel.cs",
               "RelativeDocumentMoniker": "Models\\ComentarioModel.cs",
@@ -351,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -364,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PublicacaoModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\PublicacaoModel.cs",
               "RelativeDocumentMoniker": "Models\\PublicacaoModel.cs",
@@ -429,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StoryModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\StoryModel.cs",
               "RelativeDocumentMoniker": "Models\\StoryModel.cs",
@@ -442,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "FeedModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Models\\FeedModel.cs",
               "RelativeDocumentMoniker": "Models\\FeedModel.cs",

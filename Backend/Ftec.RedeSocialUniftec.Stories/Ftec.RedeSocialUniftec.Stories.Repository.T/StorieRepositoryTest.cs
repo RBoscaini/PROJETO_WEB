@@ -9,7 +9,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void PostarTest()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -34,7 +34,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void ArquivarTest()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -50,7 +50,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void ExcluirTest()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -66,7 +66,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void TemporizadorTest()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -82,7 +82,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void VisualizarTest()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
