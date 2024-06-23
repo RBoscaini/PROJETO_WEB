@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{272DB49A-2A96-4B8A-AA7A-1116D5CF764D}|Ftec.RedeSocialUniftec.Stories.API\\Ftec.RedeSocialUniftec.Stories.API.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\backend\\ftec.redesocialuniftec.stories\\ftec.redesocialuniftec.stories.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{272DB49A-2A96-4B8A-AA7A-1116D5CF764D}|Ftec.RedeSocialUniftec.Stories.API\\Ftec.RedeSocialUniftec.Stories.API.csproj|solutionrelative:ftec.redesocialuniftec.stories.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C4921F9-6A76-43B4-BFE0-EB697479A158}|Ftec.RedeSocialUniftec.Stories.Repository.T\\Ftec.RedeSocialUniftec.Stories.Repository.T.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\backend\\ftec.redesocialuniftec.stories\\ftec.redesocialuniftec.stories.repository.t\\storierepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C4921F9-6A76-43B4-BFE0-EB697479A158}|Ftec.RedeSocialUniftec.Stories.Repository.T\\Ftec.RedeSocialUniftec.Stories.Repository.T.csproj|solutionrelative:ftec.redesocialuniftec.stories.repository.t\\storierepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StorieRepository.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository\\Repository\\StorieRepository.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Repository\\Repository\\StorieRepository.cs",
@@ -79,12 +83,11 @@
               "ViewState": "AQIAAFwAAAAAAAAAAIAwwHUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T18:08:38.447Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StorieApplication.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Application\\StorieApplication.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Application\\Application\\StorieApplication.cs",
@@ -93,12 +96,11 @@
               "ViewState": "AQIAAAQAAAAAAAAAAAAYwBIAAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T00:24:52.569Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StorieController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Controllers\\StorieController.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Controllers\\StorieController.cs",
@@ -107,12 +109,24 @@
               "ViewState": "AQIAAAkAAAAAAAAAAIAwwBcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T00:28:36.34Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Program.cs",
+              "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Program.cs*",
+              "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.API\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T20:31:18.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsuarioMapping.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Adapter\\UsuarioMapping.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Adapter\\UsuarioMapping.cs",
@@ -120,12 +134,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.API\\Adapter\\UsuarioMapping.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowBYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:34:32.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T17:34:32.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Models\\UsuarioModel.cs",
@@ -133,12 +146,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.API\\Models\\UsuarioModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:29:42.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T17:29:42.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StorieMapping.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Adapter\\StorieMapping.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Adapter\\StorieMapping.cs",
@@ -146,12 +158,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.API\\Adapter\\StorieMapping.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAMwBMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:29:28.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:29:28.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IStorieRepository.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Repository\\IStorieRepository.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Domain\\Repository\\IStorieRepository.cs",
@@ -159,12 +170,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Domain\\Repository\\IStorieRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:11:25.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T18:11:25.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StorieModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.API\\Models\\StorieModel.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.API\\Models\\StorieModel.cs",
@@ -172,12 +182,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.API\\Models\\StorieModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:27:12.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:27:12.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StorieAdapter.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Adapter\\StorieAdapter.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Application\\Adapter\\StorieAdapter.cs",
@@ -185,12 +194,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.Application\\Adapter\\StorieAdapter.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAhwCEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:24:39.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:24:39.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "StorieDto.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Dto\\StorieDto.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Application\\Dto\\StorieDto.cs",
@@ -198,12 +206,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.Application\\Dto\\StorieDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:25:03.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:25:03.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Application\\Dto\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Application\\Dto\\UsuarioDto.cs",
@@ -211,12 +218,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Stories.Application\\Dto\\UsuarioDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:26:08.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:26:08.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Storie.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Entities\\Storie.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Domain\\Entities\\Storie.cs",
@@ -224,12 +230,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Domain\\Entities\\Storie.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:11:11.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T18:11:11.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Domain\\Entities\\Usuario.cs",
@@ -237,12 +242,11 @@
               "RelativeToolTip": "Ftec.RedeSocialUniftec.Domain\\Entities\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAlwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:26:33.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T18:26:33.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StorieRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Backend\\Ftec.RedeSocialUniftec.Stories\\Ftec.RedeSocialUniftec.Stories.Repository.T\\StorieRepositoryTest.cs",
               "RelativeDocumentMoniker": "Ftec.RedeSocialUniftec.Stories.Repository.T\\StorieRepositoryTest.cs",
