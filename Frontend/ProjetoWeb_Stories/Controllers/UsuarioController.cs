@@ -29,20 +29,19 @@ namespace ProjetoWeb_Stories.Controllers
         {
             if (ModelState.IsValid)
             {
-                return Redirect("Postagem/Feed");
-                //var apiModel = UsuarioAdapter.ToUsuarioLoginModel(login);
-                //var retorno = new APIHttpClient(URLBase).Post<UsuarioLoginModel, UsuarioModel>("Usuario/Login", apiModel);
+               // return Redirect("Postagem/Feed");
+                var apiModel = UsuarioAdapter.ToUsuarioLoginModel(login);
+                var retorno = new APIHttpClient(URLBase).Post<UsuarioLoginModel, UsuarioModel>("Usuario/Login", apiModel);
 
-                //if (retorno is not null)
-                //{
-                //    HttpContext.Session.Set("UsuarioLogado", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(retorno)));
-                //    ViewBag.UsuarioLogado = UsuarioAdapter.ToUsuarioCadastroModel(retorno);
-                //    return Redirect("Postagem/Feed");
-                //}
-                //else
-                //{
-                //    return this.Index();
-                //}
+                if (retorno is not null)
+                {
+                    ViewBag.UsuarioLogado = UsuarioAdapter.ToUsuarioCadastroModel(retorno);
+                    return Redirect("Postagem/Feed");
+                }
+                else
+                {
+                    return this.Index();
+                }
             }
             else
             {
