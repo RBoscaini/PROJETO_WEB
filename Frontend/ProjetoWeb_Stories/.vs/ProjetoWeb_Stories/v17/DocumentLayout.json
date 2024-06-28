@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:backend\\httpclient\\apihttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|solutionrelative:views\\postagem\\storie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8178DD3-190B-4641-B5C1-9B81D90A807D}|ProjetoWeb_Stories.csproj|c:\\users\\fabio\\onedrive\\documentos\\github\\projetos web\\projeto_web\\frontend\\projetoweb_stories\\views\\postagem\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -132,7 +132,7 @@
               "RelativeDocumentMoniker": "Backend\\HTTPClient\\APIHttpClient.cs",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Backend\\HTTPClient\\APIHttpClient.cs",
               "RelativeToolTip": "Backend\\HTTPClient\\APIHttpClient.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAQwEsAAAAUAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T18:22:10.012Z",
               "IsPinned": true,
@@ -146,7 +146,7 @@
               "RelativeDocumentMoniker": "Controllers\\PostagemController.cs",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\PostagemController.cs",
               "RelativeToolTip": "Controllers\\PostagemController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAACUAAAAdAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAlwH0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T22:26:58.878Z",
               "IsPinned": true,
@@ -168,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Storie.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Views\\Postagem\\Storie.cshtml",
               "RelativeDocumentMoniker": "Views\\Postagem\\Storie.cshtml",
@@ -182,13 +182,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\GitHub\\Projetos Web\\PROJETO_WEB\\Frontend\\ProjetoWeb_Stories\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCYAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAhwCEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T22:26:58.898Z",
               "IsPinned": true,

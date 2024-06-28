@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ftec.RedeSocialUniftec.Stories.Repository.T")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f56fdcda0c5448aef86c3484682ad8457b212e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f9678ad5b0ea07d55a32b1a768ba3f5ce3c6f85")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ftec.RedeSocialUniftec.Stories.Repository.T")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ftec.RedeSocialUniftec.Stories.Repository.T")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -75,8 +75,8 @@ namespace ProjetoWeb_Stories.Controllers
             newStory.Usuario.Id = usuarioLogado.Id;
 
             APIHttpClient client;
-            client = new APIHttpClient("https://localhost:7061/api/");
-            // client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
+            //client = new APIHttpClient("https://localhost:7061/api/");
+             client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
 
             var newGuid = client.Post<Storie>("Storie", newStory);
 
@@ -90,8 +90,8 @@ namespace ProjetoWeb_Stories.Controllers
             Storie storie;
 
             APIHttpClient client;
-            client = new APIHttpClient("https://localhost:7061/api/");
-             //client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
+            //client = new APIHttpClient("https://localhost:7061/api/");
+             client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
 
             storie = client.Get<Storie>("Storie/" + selectedId);
 
@@ -123,8 +123,8 @@ namespace ProjetoWeb_Stories.Controllers
             List<Storie> getStories = new List<Storie>();
             List<StoryModel> showStories = new List<StoryModel>();
 
-            APIHttpClient client = new APIHttpClient("https://localhost:7061/api/");
-                         // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+            //APIHttpClient client = new APIHttpClient("https://localhost:7061/api/");
+            APIHttpClient  client = new APIHttpClient("http://grupo2.neurosky.com.br");
 
             client.Put<Storie>("Storie");
 
