@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Abp.UI;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProjetoWeb_Stories.Backend.Models;
 using ProjetoWeb_Stories.Models;
 using sistemasWebAula.Backend.HTTPClient;
@@ -7,10 +9,6 @@ namespace ProjetoWeb_Stories.Controllers
 {
 	public class PostagemController : Controller
 	{
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
 
         [HttpGet]
         public IActionResult Index()
@@ -25,30 +23,85 @@ namespace ProjetoWeb_Stories.Controllers
             return View(Mapping.StorieMapping.ToStorieConsulta(storie));
         }
 
-        public IActionResult Storie()
+        [HttpGet]
+        public IActionResult NovoStory()
         {
+            return View();
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> NovoStory(IFormFile file)
+        {
+            if (file == null || file.Length <= 0)
+            {
+                throw new UserFriendlyException("error");
+            }
+        
+            // Converte a imagem para byte[]
+            byte[] imageData = null;
+            using (var memoryStream = new MemoryStream())
+            {
+                await file.CopyToAsync(memoryStream);
+                imageData = memoryStream.ToArray();
+            }
+
+            Storie newStory = new Storie();
+            newStory.Id = new Guid();
+            newStory.NumVisualização = 0;
+            newStory.Situacao = Enums.SituacaoStorieEnum.Disponível;
+            newStory.DataEnvio = DateTime.Now;
+            newStory.Conteudo = imageData;
+            newStory.Usuario = new Usuario();
+            newStory.Usuario.Nome = "Usuario Logado";
+            newStory.Usuario.Id = new Guid();
+
+            APIHttpClient client;
+            client = new APIHttpClient("https://localhost:7061/api/");
+            // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+
+            var newGuid = client.Post<Storie>("Storie", newStory);
+
+            ViewBag.Message = "Upload realizado com sucesso!";
+
+            return new EmptyResult();
+        }
+
+        public async  Task<IActionResult> Storie(string selectedId)
+        {
             Storie storie;
 
             APIHttpClient client;
             client = new APIHttpClient("https://localhost:7061/api/");
-           // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+            // client = new APIHttpClient("http://grupo2.neurosky.com.br");
 
-            storie = client.Get<Storie>("Storie/62728556-d467-4724-8f11-7fed1490a20a");
+            storie = client.Get<Storie>("Storie/" + selectedId);
+
+            await MostrarImagem(storie.Conteudo);
 
             return View(Mapping.StorieMapping.ToStorieConsulta(storie));
-            //return View("Storie");
         }
 
-        
+
+        private async Task<IActionResult> MostrarImagem(byte[] imagem)
+        {
+            if (imagem == null)
+                return NotFound();
+
+            // Converte os bytes da imagem para base64
+            var base64 = Convert.ToBase64String(imagem);
+            var imagemBase64 = $"data:image/png;base64,{base64}";
+
+            ViewBag.ImagemBase64 = imagemBase64;
+
+            return View();
+        }
+
         public IActionResult Feed()
         {
 
             // Carregar os stories do banco de dados
-
             List<Storie> getStories = new List<Storie>();
             List<StoryModel> showStories = new List<StoryModel>();
-         //   Storie storie = new Storie();
             APIHttpClient client;
             client = new APIHttpClient("https://localhost:7061/api/");
             // client = new APIHttpClient("http://grupo2.neurosky.com.br");
@@ -68,26 +121,8 @@ namespace ProjetoWeb_Stories.Controllers
                 showStories.Add(currentStorie);
 
             }
-            
 
-
-            //    List <StoryModel> stories = new List<StoryModel>()
-            //{
-            //    new StoryModel(1, 1, "", DateTime.Now.AddHours(-1), "João Silva"),
-            //    new StoryModel(2, 1, "", DateTime.Now.AddHours(-3), "Rodrigues Antunes"),
-            //    new StoryModel(3, 2, "", DateTime.Now.AddHours(-2), "Marcio Mario"),
-            //    new StoryModel(4, 3, "", DateTime.Now.AddHours(-3), "Rodrigo Moraes"),
-            //    new StoryModel(5, 3, "", DateTime.Now.AddHours(-4), "Rodrigo Moraes"),
-            //    new StoryModel(6, 4, "", DateTime.Now.AddHours(-3), "José Silva"),
-            //    new StoryModel(7, 5, "", DateTime.Now.AddHours(-2), "Lara Silva"),
-            //    new StoryModel(8, 6, "", DateTime.Now.AddHours(-5), "Jorge Pires"),
-            //    new StoryModel(9, 7, "", DateTime.Now.AddHours(-2), "Silvano Moreira"),
-            //    new StoryModel(11, 9, "", DateTime.Now.AddHours(-8), "Robson Dutra"),
-            //    new StoryModel(10, 8, "", DateTime.Now.AddHours(-2), "Pietro Marcos"),
-            //    new StoryModel(12, 10, "", DateTime.Now.AddHours(-3), "Mariana Silva"),
-            //    new StoryModel(13, 11, "", DateTime.Now.AddHours(-2), "Rafael Lima"),
-
-            //};
+            // client = new APIHttpClient("http://grupo5.neurosky.com.br");
 
             List<PublicacaoModel> feedPosts = new List<PublicacaoModel>()
             {
@@ -168,7 +203,8 @@ namespace ProjetoWeb_Stories.Controllers
                 UserId = x.Key,
                 UserName = x.FirstOrDefault().UserName,
                 LatestStoryDate = -(x.OrderBy(y => y.Date).FirstOrDefault().Date - DateTime.Now).Hours + " Horas Atrás",
-                Stories = x.Select(y => new { y.Image, y.Date })
+                Stories = x.Select(y => new {  y.Image, y.Date }),
+                StorieId = x.FirstOrDefault().Id   
             }
             ).ToList();
 
