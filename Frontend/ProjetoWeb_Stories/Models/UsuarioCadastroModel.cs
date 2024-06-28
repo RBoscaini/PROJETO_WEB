@@ -4,6 +4,8 @@ namespace ProjetoWeb_Stories.Models
 {
     public class UsuarioCadastroModel
     {
+        public Guid? Id { get; set; }
+
         [Required(ErrorMessage = "O nome não foi informado. Por favor, verifique!")]
         public string Nome { get; set; }
 

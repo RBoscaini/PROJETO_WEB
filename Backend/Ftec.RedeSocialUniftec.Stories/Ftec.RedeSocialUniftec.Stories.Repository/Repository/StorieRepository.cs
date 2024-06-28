@@ -72,7 +72,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                     cmd.Parameters.AddWithValue("dataenvio", storie.DataEnvio);
                     cmd.Parameters.AddWithValue("numvisualizacao", storie.NumVisualização);
                     cmd.Parameters.AddWithValue("situacao", Convert.ToInt16(storie.Situacao));
-                    cmd.Parameters.AddWithValue("idusuario", Guid.NewGuid());
+                    cmd.Parameters.AddWithValue("idusuario", storie.IdUsuario);
                     cmd.ExecuteNonQuery();
 
                 }
@@ -126,7 +126,6 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                         storie.Situacao = (SituacaoStorie)leitor["situacao"];
                         storie.IdUsuario = Guid.Parse(leitor["idusuario"].ToString());
                         storie.Usuario.Id = storie.IdUsuario;
-
                         storie.Usuario.Nome = leitor["nomeUsuario"].ToString();
                     }
 
@@ -136,7 +135,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                     cmd.Parameters.Clear();
                     cmd.CommandText = "UPDATE public.storie SET numvisualizacao=@numvisualizacao WHERE id=@id;";
                     cmd.Parameters.AddWithValue("id", id);
-                    cmd.Parameters.AddWithValue("numvisualizacao", 11);
+                    cmd.Parameters.AddWithValue("numvisualizacao", (storie.NumVisualização + 1));
                     cmd.ExecuteNonQuery();
 
                 }
@@ -160,7 +159,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                     cmd.Connection = con;
                     cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
                         " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
-                        " ORDER BY dataenvio DESC";
+                        " WHERE situacao <> 2 ORDER BY dataenvio DESC";
                         
                     var leitor = cmd.ExecuteReader();
                     while (leitor.Read())

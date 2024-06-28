@@ -35,6 +35,7 @@ namespace ProjetoWeb_Stories.Controllers
 
                 if (retorno is not null)
                 {
+                    HttpContext.Session.Set("UsuarioLogado", Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(retorno)));
                     ViewBag.UsuarioLogado = UsuarioAdapter.ToUsuarioCadastroModel(retorno);
                     return Redirect("Postagem/Feed");
                 }

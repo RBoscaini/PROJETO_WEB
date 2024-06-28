@@ -41,6 +41,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Adapter
                 storieDto.Id = storie.Id;
                 storieDto.IdUsuario = storie.IdUsuario;
                 storieDto.Usuario = storie.Usuario;
+                
 
                 return storieDto;
             }

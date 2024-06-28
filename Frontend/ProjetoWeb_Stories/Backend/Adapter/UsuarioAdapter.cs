@@ -12,12 +12,6 @@ namespace ProjetoWeb_Stories.Backend.Adapter
                 Sobrenome = usuarioCadastro.Sobrenome,
                 Email = usuarioCadastro.Email,
                 Senha = usuarioCadastro.Senha!,
-                DataComemorativa = usuarioCadastro.DataComemorativa,
-                Bio = string.Empty,
-                FotoPerfil = string.Empty,
-                Cidade = string.Empty,
-                Telefone = string.Empty,
-                Documento = string.Empty,
             };
         }
 
@@ -25,10 +19,10 @@ namespace ProjetoWeb_Stories.Backend.Adapter
         {
             return new()
             {
+                Id = usuarioModel.Id,
                 Nome = usuarioModel.Nome,
                 Sobrenome = usuarioModel.Sobrenome,
                 Email = usuarioModel.Email,
-                DataComemorativa = usuarioModel.DataComemorativa
             };
         }
 

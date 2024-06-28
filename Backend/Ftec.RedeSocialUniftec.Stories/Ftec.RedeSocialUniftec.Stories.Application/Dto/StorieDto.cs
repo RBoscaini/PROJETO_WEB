@@ -11,7 +11,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Dto
     {
         public Guid Id { get; set; }
         public Guid IdUsuario { get; set; }
-        public Usuario Usuario { get; set; } 
+        public Usuario? Usuario { get; set; } 
         public byte[] Conteudo { get; set; }
         public DateTime DataEnvio { get; set; }
         public int NumVisualização { get; set; }

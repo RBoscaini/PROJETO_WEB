@@ -36,6 +36,27 @@ namespace sistemasWebAula.Backend.HTTPClient
             }
         }
 
+        public Guid Put<T>(string action)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(baseAPI);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpResponseMessage response = client.PutAsJsonAsync(action , "").Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var sucesso = response.Content.ReadAsAsync<Guid>().Result;
+                    return sucesso;
+                }
+                else
+                {
+                    throw new Exception(response.Content.ReadAsStringAsync().Result);
+                }
+            }
+        }
+
         public Guid Post<T>(string action, T data)
         {
             using (var client = new HttpClient())

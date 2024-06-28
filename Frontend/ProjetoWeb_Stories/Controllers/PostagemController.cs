@@ -1,9 +1,11 @@
 ﻿using Abp.UI;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 using ProjetoWeb_Stories.Backend.Models;
 using ProjetoWeb_Stories.Models;
 using sistemasWebAula.Backend.HTTPClient;
+using System.Text;
 
 namespace ProjetoWeb_Stories.Controllers
 {
@@ -24,6 +26,20 @@ namespace ProjetoWeb_Stories.Controllers
         }
 
         [HttpGet]
+        public IActionResult Like(Guid storieId)
+        {
+            var usuarioLogado = ObterUsuarioLogado();
+
+            APIHttpClient client;
+            client = new APIHttpClient("http://grupo4.neurosky.com.br/api/");
+
+            client.Post($"likes/story/{storieId}/{usuarioLogado.Id}", storieId);
+
+            return Redirect($"Storie?selectedId={storieId}");
+        }
+
+
+        [HttpGet]
         public IActionResult NovoStory()
         {
             return View();
@@ -32,6 +48,8 @@ namespace ProjetoWeb_Stories.Controllers
         [HttpPost]
         public async Task<IActionResult> NovoStory(IFormFile file)
         {
+            var usuarioLogado = ObterUsuarioLogado();
+
             if (file == null || file.Length <= 0)
             {
                 throw new UserFriendlyException("error");
@@ -51,19 +69,20 @@ namespace ProjetoWeb_Stories.Controllers
             newStory.Situacao = Enums.SituacaoStorieEnum.Disponível;
             newStory.DataEnvio = DateTime.Now;
             newStory.Conteudo = imageData;
+            newStory.IdUsuario = usuarioLogado.Id;
             newStory.Usuario = new Usuario();
-            newStory.Usuario.Nome = "Usuario Logado";
-            newStory.Usuario.Id = new Guid();
+            newStory.Usuario.Nome = usuarioLogado.Nome;
+            newStory.Usuario.Id = usuarioLogado.Id;
 
             APIHttpClient client;
-            //client = new APIHttpClient("https://localhost:7061/api/");
-             client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
+            client = new APIHttpClient("https://localhost:7061/api/");
+            // client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
 
             var newGuid = client.Post<Storie>("Storie", newStory);
 
             ViewBag.Message = "Upload realizado com sucesso!";
 
-            return new EmptyResult();
+            return Redirect("Feed");
         }
 
         public async  Task<IActionResult> Storie(string selectedId)
@@ -71,13 +90,13 @@ namespace ProjetoWeb_Stories.Controllers
             Storie storie;
 
             APIHttpClient client;
-            //client = new APIHttpClient("https://localhost:7061/api/");
-             client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
+            client = new APIHttpClient("https://localhost:7061/api/");
+             //client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
 
             storie = client.Get<Storie>("Storie/" + selectedId);
 
             await MostrarImagem(storie.Conteudo);
-
+            ViewBag.Storie = storie;
             return View(Mapping.StorieMapping.ToStorieConsulta(storie));
         }
 
@@ -98,13 +117,16 @@ namespace ProjetoWeb_Stories.Controllers
 
         public IActionResult Feed()
         {
+            var usuarioLogado = ObterUsuarioLogado();
+            ViewBag.UsuarioLogado = usuarioLogado;
 
-            // Carregar os stories do banco de dados
             List<Storie> getStories = new List<Storie>();
             List<StoryModel> showStories = new List<StoryModel>();
-            APIHttpClient client;
-            client = new APIHttpClient("https://localhost:7061/api/");
-            // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+
+            APIHttpClient client = new APIHttpClient("https://localhost:7061/api/");
+                         // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+
+            client.Put<Storie>("Storie");
 
             getStories = client.GetAll<Storie>("Storie");
 
@@ -122,8 +144,8 @@ namespace ProjetoWeb_Stories.Controllers
 
             }
 
-            // client = new APIHttpClient("http://grupo5.neurosky.com.br");
 
+            // client = new APIHttpClient("http://grupo5.neurosky.com.br");
             List<PublicacaoModel> feedPosts = new List<PublicacaoModel>()
             {
                 new PublicacaoModel()
@@ -224,5 +246,8 @@ namespace ProjetoWeb_Stories.Controllers
             public int Likes { get; set; }
             public DateTime Date { get; set; }
         }
+
+        private UsuarioModel? ObterUsuarioLogado() =>
+           JsonConvert.DeserializeObject<UsuarioModel>(Encoding.UTF8.GetString(HttpContext.Session.Get("UsuarioLogado")));
     }
 }
