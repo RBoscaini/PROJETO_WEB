@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoWeb_Stories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+418e6e9abb262dda9ad48c50646b865d6d0f79b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f4967dc7978133549227df4989cd7b314dee263")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoWeb_Stories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoWeb_Stories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

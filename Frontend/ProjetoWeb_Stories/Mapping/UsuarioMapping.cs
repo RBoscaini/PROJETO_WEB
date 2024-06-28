@@ -11,6 +11,8 @@ namespace ProjetoWeb_Stories.Mapping
 
             usuarioConsulta.Id = usuario.Id;
             usuarioConsulta.Nome = usuario.Nome;
+            usuarioConsulta.Email = usuario.Email;
+            usuarioConsulta.Senha = usuario.Senha;
             return usuarioConsulta;
         }
     }
