@@ -80,6 +80,29 @@ namespace sistemasWebAula.Backend.HTTPClient
             }
         }
 
+        public List<T> GetAll<T>(string actionUri)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(baseAPI);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpResponseMessage response = client.GetAsync(actionUri).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    List<T> sucesso = response.Content.ReadAsAsync<List<T>>().Result;
+                    return sucesso;
+                }
+                else
+                {
+                    //Pode-se registrar as falhas neste local
+                    //joga para o cliente a falha
+                    throw new Exception(response.Content.ReadAsStringAsync().Result);
+                }
+            }
+        }
+
         public T Delete<T>(string action, Guid id)
         {
             using (var client = new HttpClient())

@@ -16,7 +16,8 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Application
 
         public StorieApplication()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "Server=localhost;Port=5432;Database=redesocial;User Id=postgres;Password=1234;";
+            //string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             this.storieRepository = new StorieRepository(strConexao);   
         }
 
@@ -43,6 +44,20 @@ namespace Ftec.RedeSocialUniftec.Stories.Application.Application
         {
             Storie sto = storieRepository.Visualizar(id);
             return StorieAdapter.ToDto(sto);
+        }
+
+        public List<StorieDto> VisualizarTodos()
+        {
+            List<Storie> listStorie = storieRepository.VisualizarTodos();
+            
+            List<StorieDto> listToReturn = new List<StorieDto>();
+
+            foreach(Storie storie in listStorie)
+            {
+                listToReturn.Add(StorieAdapter.ToDto(storie));
+            }
+
+            return listToReturn;
         }
 
         public void Temporizador()

@@ -144,5 +144,49 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
             return storie;
 
         }
+
+        public List<Storie> VisualizarTodos()
+        {
+
+            List<Storie>stories = new List<Storie>();
+
+
+            using (NpgsqlConnection con = new NpgsqlConnection(strConexao))
+            {
+                con.Open();
+
+                using (NpgsqlCommand cmd = new NpgsqlCommand())
+                {
+                    cmd.Connection = con;
+                    cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
+                        " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
+                        " ORDER BY dataenvio DESC";
+                        
+                    var leitor = cmd.ExecuteReader();
+                    while (leitor.Read())
+                    {
+                        Storie storie = null;
+
+                        storie = new Storie();
+                        storie.Usuario = new Usuario();
+                        storie.Id = Guid.Parse(leitor["id"].ToString());
+                        storie.Conteudo = (byte[])leitor["conteudo"];
+                        storie.DataEnvio = (DateTime)leitor["dataenvio"];
+                        storie.NumVisualização = Convert.ToInt16(leitor["numvisualizacao"]);
+                        storie.Situacao = (SituacaoStorie)leitor["situacao"];
+                        storie.IdUsuario = Guid.Parse(leitor["idusuario"].ToString());
+                        storie.Usuario.Id = storie.IdUsuario;
+                        storie.Usuario.Nome = leitor["nomeUsuario"].ToString();
+
+                        stories.Add(storie);
+                    }
+
+                    leitor.Close();
+
+                }
+            }
+            return stories;
+
+        }
     }
 }

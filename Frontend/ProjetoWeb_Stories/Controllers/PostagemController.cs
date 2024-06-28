@@ -32,6 +32,7 @@ namespace ProjetoWeb_Stories.Controllers
 
             APIHttpClient client;
             client = new APIHttpClient("https://localhost:7061/api/");
+           // client = new APIHttpClient("http://grupo2.neurosky.com.br");
 
             storie = client.Get<Storie>("Storie/62728556-d467-4724-8f11-7fed1490a20a");
 
@@ -39,28 +40,54 @@ namespace ProjetoWeb_Stories.Controllers
             //return View("Storie");
         }
 
-
+        
         public IActionResult Feed()
         {
 
+            // Carregar os stories do banco de dados
 
-            List<StoryModel> stories = new List<StoryModel>()
+            List<Storie> getStories = new List<Storie>();
+            List<StoryModel> showStories = new List<StoryModel>();
+         //   Storie storie = new Storie();
+            APIHttpClient client;
+            client = new APIHttpClient("https://localhost:7061/api/");
+            // client = new APIHttpClient("http://grupo2.neurosky.com.br");
+
+            getStories = client.GetAll<Storie>("Storie");
+
+            foreach(Storie story in getStories)
             {
-                new StoryModel(1, 1, "", DateTime.Now.AddHours(-1), "João Silva"),
-                new StoryModel(2, 1, "", DateTime.Now.AddHours(-3), "Rodrigues Antunes"),
-                new StoryModel(3, 2, "", DateTime.Now.AddHours(-2), "Marcio Mario"),
-                new StoryModel(4, 3, "", DateTime.Now.AddHours(-3), "Rodrigo Moraes"),
-                new StoryModel(5, 3, "", DateTime.Now.AddHours(-4), "Rodrigo Moraes"),
-                new StoryModel(6, 4, "", DateTime.Now.AddHours(-3), "José Silva"),
-                new StoryModel(7, 5, "", DateTime.Now.AddHours(-2), "Lara Silva"),
-                new StoryModel(8, 6, "", DateTime.Now.AddHours(-5), "Jorge Pires"),
-                new StoryModel(9, 7, "", DateTime.Now.AddHours(-2), "Silvano Moreira"),
-                new StoryModel(11, 9, "", DateTime.Now.AddHours(-8), "Robson Dutra"),
-                new StoryModel(10, 8, "", DateTime.Now.AddHours(-2), "Pietro Marcos"),
-                new StoryModel(12, 10, "", DateTime.Now.AddHours(-3), "Mariana Silva"),
-                new StoryModel(13, 11, "", DateTime.Now.AddHours(-2), "Rafael Lima"),
+                StoryModel currentStorie = new StoryModel(
+                    story.Id,
+                    story.Usuario.Id,
+                    story.Conteudo,
+                    story.DataEnvio, 
+                    story.Usuario.Nome
+                );
 
-            };
+                showStories.Add(currentStorie);
+
+            }
+            
+
+
+            //    List <StoryModel> stories = new List<StoryModel>()
+            //{
+            //    new StoryModel(1, 1, "", DateTime.Now.AddHours(-1), "João Silva"),
+            //    new StoryModel(2, 1, "", DateTime.Now.AddHours(-3), "Rodrigues Antunes"),
+            //    new StoryModel(3, 2, "", DateTime.Now.AddHours(-2), "Marcio Mario"),
+            //    new StoryModel(4, 3, "", DateTime.Now.AddHours(-3), "Rodrigo Moraes"),
+            //    new StoryModel(5, 3, "", DateTime.Now.AddHours(-4), "Rodrigo Moraes"),
+            //    new StoryModel(6, 4, "", DateTime.Now.AddHours(-3), "José Silva"),
+            //    new StoryModel(7, 5, "", DateTime.Now.AddHours(-2), "Lara Silva"),
+            //    new StoryModel(8, 6, "", DateTime.Now.AddHours(-5), "Jorge Pires"),
+            //    new StoryModel(9, 7, "", DateTime.Now.AddHours(-2), "Silvano Moreira"),
+            //    new StoryModel(11, 9, "", DateTime.Now.AddHours(-8), "Robson Dutra"),
+            //    new StoryModel(10, 8, "", DateTime.Now.AddHours(-2), "Pietro Marcos"),
+            //    new StoryModel(12, 10, "", DateTime.Now.AddHours(-3), "Mariana Silva"),
+            //    new StoryModel(13, 11, "", DateTime.Now.AddHours(-2), "Rafael Lima"),
+
+            //};
 
             List<PublicacaoModel> feedPosts = new List<PublicacaoModel>()
             {
@@ -137,7 +164,7 @@ namespace ProjetoWeb_Stories.Controllers
 
             };
 
-            ViewBag.StoriesAgrupados = stories.GroupBy(x => x.UserId).Select(x => new {
+            ViewBag.StoriesAgrupados = showStories.GroupBy(x => x.UserId).Select(x => new {
                 UserId = x.Key,
                 UserName = x.FirstOrDefault().UserName,
                 LatestStoryDate = -(x.OrderBy(y => y.Date).FirstOrDefault().Date - DateTime.Now).Hours + " Horas Atrás",

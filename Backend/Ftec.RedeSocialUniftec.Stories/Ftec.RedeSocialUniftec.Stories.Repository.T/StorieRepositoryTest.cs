@@ -9,7 +9,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void PostarTest()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -34,7 +34,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void ArquivarTest()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -50,7 +50,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void ExcluirTest()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -66,7 +66,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void TemporizadorTest()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
@@ -82,11 +82,11 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.T
         [TestMethod]
         public void VisualizarTest()
         {
-            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I;'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
+            string strConexao = "User ID=jmenzen1; Password='8N9;FLC?;@?I'; Host=pgsql.jmenzen.com.br; Port=5432; Database=jmenzen1;";
             var storieRepository = new StorieRepository(strConexao);
             try
             {
-                storieRepository.Visualizar(Guid.Parse("4010348d-4d6b-41c3-ad47-98d00dba423f"));
+                storieRepository.Visualizar(Guid.Parse("e593b627-bb4c-4123-a459-3465725edfdf"));
                 Assert.IsTrue(true);
             }
             catch (Exception ex)
