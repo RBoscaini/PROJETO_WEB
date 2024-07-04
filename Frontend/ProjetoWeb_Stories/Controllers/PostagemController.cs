@@ -124,9 +124,9 @@ namespace ProjetoWeb_Stories.Controllers
             List<StoryModel> showStories = new List<StoryModel>();
 
             //APIHttpClient client = new APIHttpClient("https://localhost:7061/api/");
-            APIHttpClient  client = new APIHttpClient("http://grupo2.neurosky.com.br");
+            APIHttpClient  client = new APIHttpClient("http://grupo2.neurosky.com.br/api/");
 
-            client.Put<Storie>("Storie");
+           // client.Put<Storie>("Storie");
 
             getStories = client.GetAll<Storie>("Storie");
 

@@ -111,7 +111,7 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                 {
                     cmd.Connection = con;
                     cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
-                        " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
+                        " FROM public.storie, public.usuario" +
                         " WHERE public.storie.id=@id;";
                     cmd.Parameters.AddWithValue("id", id);
                     var leitor = cmd.ExecuteReader();
@@ -157,10 +157,16 @@ namespace Ftec.RedeSocialUniftec.Stories.Repository.Repository
                 using (NpgsqlCommand cmd = new NpgsqlCommand())
                 {
                     cmd.Connection = con;
+                    //cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
+                    //    " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
+                    //    " WHERE situacao <> 2 ORDER BY dataenvio DESC";
+
                     cmd.CommandText = "SELECT public.storie.id, conteudo, dataenvio, numvisualizacao, situacao, idusuario, public.usuario.nome as nomeUsuario" +
-                        " FROM public.storie INNER JOIN public.usuario ON public.usuario.id = public.storie.idusuario" +
+                        " FROM public.storie, public.usuario" +
                         " WHERE situacao <> 2 ORDER BY dataenvio DESC";
-                        
+
+
+
                     var leitor = cmd.ExecuteReader();
                     while (leitor.Read())
                     {
